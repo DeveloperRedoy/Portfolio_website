@@ -26,6 +26,41 @@
       width: 100%;
       height: 200vh;
     }
+    @media screen and (max-width: 1200px)
+    {
+      .main_class
+      {
+        height: 150vh;
+      }
+    }
+    @media screen and (max-width: 900px)
+    {
+      .main_class
+      {
+        height: 100vh;
+      }
+    }
+    @media screen and (max-width: 900px)
+    {
+      .main_class
+      {
+        height: 95vh;
+      }
+    }
+    @media screen and (max-width: 700px)
+    {
+      .main_class
+      {
+        height: 75vh;
+      }
+    }
+    @media screen and (max-width: 500px)
+    {
+      .main_class
+      {
+        height: 55vh;
+      }
+    }
   </style>
 </head>
 <body>

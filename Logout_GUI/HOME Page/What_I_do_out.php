@@ -113,6 +113,90 @@
     {
       color: yellow;
     }
+    @media screen and (max-width: 1200px)
+    {
+      .scrollbar
+      {
+        height: 70vh;
+      }
+      .language_icon
+      {
+        font-size: 70px;
+      }
+      .Skill_
+      {
+        font-size: 45px;
+      }
+      .Skill_text
+      {
+        font-size: 25px;
+      }
+      .skil_lint
+      {
+        font-size: 20px;
+      }
+    }
+    @media screen and (max-width: 900px)
+    {
+      .language_icon
+      {
+        font-size: 50px;
+      }
+      .scrollbar
+      {
+        height: 55vh;
+      }
+      .Skill_
+      {
+        font-size: 40px;
+      }
+      .Skill_text
+      {
+        font-size: 23px;
+      }
+      .skil_lint
+      {
+        font-size: 18px;
+      }
+    }
+    @media screen and (max-width: 700px)
+    {
+      .language_icon
+      {
+        font-size: 40px;
+      }
+      .scrollbar
+      {
+        height: 45vh;
+      }
+      .Skill_
+      {
+        font-size: 35px;
+      }
+      .Skill_text
+      {
+        font-size: 20px;
+      }
+      .skil_lint
+      {
+        font-size: 17px;
+      }
+    }
+    @media screen and (max-width: 500px)
+    {
+      .language_icon
+      {
+        font-size: 30px;
+      }
+      .scrollbar
+      {
+        height: 40vh;
+      }
+      .skil_lint
+      {
+        font-size: 16px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -134,7 +218,7 @@
   </div>
   <!--  -->
   <div class="row">
-    <div class="col" style="width: 50%; height:80vh; background: #0B0B0D20; border-radius:10px;">
+    <div class="col" style="width: 50%; height:80vh; border-radius:10px;">
     <div class="scrollbar scrollbar-warning">
     <div class="force-overflow">
         <p class="Skill_">Skills &nbsp; &nbsp;<i class="fas fa-user-graduate"></i></p>

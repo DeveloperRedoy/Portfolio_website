@@ -30,6 +30,10 @@
         font-family: sans-serif;
         float: left;
       }
+      .about_text
+      {
+        font-size: 22px;
+      }
       .row .col a
       {
         color: #009BDF;
@@ -48,6 +52,47 @@
       {
         float: left;
       }
+      @media screen and (max-width: 1200px)
+      {
+        .big_text
+        {
+          font-size: 35px;
+        }
+        .row .col
+        {
+          margin-bottom: 0vh;
+        }
+      }
+      @media screen and (max-width: 900px)
+      {
+        .big_text
+        {
+          font-size: 30px;
+        }
+      }
+      @media screen and (max-width: 700px)
+      {
+        .big_text
+        {
+          font-size: 25px;
+        }
+      }
+      .about_text
+      {
+        font-size: 20px;
+      }
+      @media screen and (max-width: 500px)
+      {
+        .big_text
+        {
+          font-size: 20px;
+        }
+        .about_text
+        {
+          font-size: 18px;
+        }
+      }
+
   </style>
 </head>
 <body>
@@ -67,10 +112,10 @@
 </div>
     <div class="container" >
         <div class="row ">
-          <div class="col">
+          <div class="col about_text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quae molestias, ut neque aliquid dolore ipsa amet, doloribus dolorem magnam esse, quas rerum tenetur pariatur dolores recusandae repellat voluptatibus? Fugit, temporibus? Eum reprehenderit ullam et deserunt repellendus cumque hic neque maiores distinctio vitae! Quam nihil eius molestias et quas esse.
           </div>
-          <div class="col">
+          <div class="col about_text">
            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam adipisci neque corporis voluptas. Libero exercitationem minus fugit error ab laboriosam asperiores dolor adipisci nostrum ipsa, harum beatae? Accusamus odit consequatur laudantium molestias! Aspernatur excepturi est et nesciunt soluta! Facere, cumque reprehenderit? Aut vitae perferendis reprehenderit non, similique neque cupiditate illum.
            <br><br>
            <div>

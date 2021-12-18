@@ -54,10 +54,13 @@
             display: inline-block;
             font-size: 22px;
             padding: 16px;
+            transition: 0.3s;
         }
         .icon_footer li a i:hover
         {
             background: #e1e1e180;
+            transition: 0.3s;
+            transform: rotateZ(10deg);
         }
         .shado_foot
         {
@@ -80,6 +83,7 @@
         {
             color: wheat;
         }
+
     </style>
 </head>
 <body>
@@ -126,9 +130,9 @@
 
             <span class="footer_info" style="font-weight: 700;">Social Media Link &nbsp;&nbsp;<i class="fas fa-link"></i></span><br><br>
             <ul class="icon_footer">
-                <li><a class="header_123_icon" href="#"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a class="header_123_icon" href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a class="header_123_icon" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a class="header_123_icon ami_shado_foot" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a class="header_123_icon ami_shado_foot" href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a class="header_123_icon ami_shado_foot" href="#"><i class="fab fa-linkedin-in"></i></a></li>
             </ul>
             
         </div>
