@@ -47,6 +47,27 @@
         {
             color: fuchsia;
         }
+        /* Responsive */
+        @media screen and (max-width: 1200px)
+        {
+            .slide
+            {
+                width: 100%;
+                margin-left: 0%;
+                margin-top: -10%;
+            }
+            .slider_top
+            {
+              margin-top: 0vh;
+              
+            }
+            .slider_scroll
+            {
+              display: none;
+            }
+
+        }
+
     </style>
 </head>
 <body>

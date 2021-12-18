@@ -8,6 +8,7 @@
   <!--  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/jquery.floating-social-share.min.css" />
+    <link rel="stylesheet" href="Responsive/Slider/style.css">
     <link rel="stylesheet" href="Responsive/Home_Out_res.css">
   <!--  -->
   <style>
@@ -33,7 +34,10 @@
     </div>
   <!-- ====================== -->
   <?php require 'menu_bar_out.php' ?>
-  <?php require 'Slider_Out.php' ?>
+  <!--  -->
+  <div id="Slider_Out_res1">
+    <?php require 'Slider_Out.php' ?>
+  </div>
   <!--  -->
 <div id="menu_bar_UI">
   <?php require 'menu_bar_UI.php'?>
