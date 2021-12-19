@@ -40,8 +40,8 @@
         }
         .col .img_my2
         {
-            width: 100%;
-            height: auto;
+            width: 500px;
+            height: 500px;
             border-radius: 50%;
             float: right;
         }
@@ -87,7 +87,45 @@
         }
         .col2 .img_my2
         {
-            margin-top: 25vh;
+            margin-top: 20vh;
+        }
+        @media screen and (max-width: 1200px)
+        {
+            .col .img_my2
+            {
+                width: 400px;
+                height: 400px;
+            }
+        }
+        @media screen and (max-width: 1000px)
+        {
+            .col .img_my2
+            {
+                width: 300px;
+                height: 300px;
+            }
+        }
+        @media screen and (max-width: 800px)
+        {
+            .col .img_my2
+            {
+                width: 250px;
+                height: 250px;
+            }
+        }
+        @media screen and (max-width: 600px)
+        {
+            .col .img_my2
+            {
+               display: none;
+            }
+        }
+        @media screen and (max-width: 500px)
+        {
+            .col .img_my2
+            {
+                display: none;
+            }
         }
     </style>
 </head>

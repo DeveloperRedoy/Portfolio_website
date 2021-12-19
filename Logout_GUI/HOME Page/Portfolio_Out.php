@@ -13,6 +13,11 @@
       {
         width: 100%;
       }
+      ::selection
+      {
+          color: white;
+          background: darkorange;
+      }
       .port_back
       {
           width: 100%;
@@ -25,6 +30,11 @@
           font-family: 'Playfair Display', serif;
           font-weight: 700;
           margin-bottom: -8vh;
+      }
+      .port_text::selection
+      {
+          color: aqua;
+          background: #338FFC;
       }
       .port_div_1
       {
@@ -49,7 +59,7 @@
       }
       .card_pro:hover
       {
-          box-shadow: -2px -2px 5px #727F94, 2px 2px 5px #3E2686;
+          box-shadow: -1px -1px 5px #727F94, 1px 1px 5px #3E2686;
           transition: 0.3s;
           
       }
@@ -57,6 +67,17 @@
       .card_pro5
       {
           box-shadow: -5px -5px 20px #FF00FF, 5px 5px 20px #0D6BF5,-5px -5px 20px #FF00FF, 5px 5px 20px #0D6BF5;
+      }
+      .port_card_test_style
+      {
+          font-size: 25px;
+        color: yellow;
+        text-shadow: 1px 1px 2px fuchsia, 0 0 25px red, 0 0 5px fuchsia;
+      }
+      .port_card_test_style::selection
+      {
+          color: white;
+          background: darkorchid;
       }
   </style>
 </head>

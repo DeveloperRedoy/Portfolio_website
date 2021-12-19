@@ -18,16 +18,27 @@
         }
         .footer_header
         {
-            font-size: 14px;
+            font-size: 18px;
             font-family: Trebuchet MS", sans-serif";
             color: white;
             font-weight: 700;
         }
         .footer_info
         {
-            font-size: 14px;
+            font-size: 16px;
             font-family: Trebuchet MS", sans-serif";
             color: silver;
+        }
+        .footer_info_exta
+        {
+            font-size: 16px;
+            font-family: Trebuchet MS", sans-serif";
+            color: silver;
+            border-bottom: none;
+        }
+        .footer_info:hover
+        {
+            border-bottom: 1px solid #00b3ff;
         }
         /*  */
         .icon_footer
@@ -54,17 +65,17 @@
             display: inline-block;
             font-size: 22px;
             padding: 16px;
-            transition: 0.3s;
+            transition: 1s;
         }
         .icon_footer li a i:hover
         {
             background: #e1e1e180;
-            transition: 0.3s;
-            transform: rotateZ(10deg);
+            transition: 1s;
+            transform: rotateZ(20deg);
         }
         .shado_foot
         {
-            text-shadow: 3px 3px 3px fuchsia;
+            /* text-shadow: 3px 3px 3px fuchsia; */
         }
         /*  */
         .scroll_foot
@@ -81,7 +92,7 @@
         }
         .scroll_foot i:hover
         {
-            color: wheat;
+            color: #FF40FF;
         }
 
     </style>
@@ -98,7 +109,9 @@
 
         <div class="col">
         <p class="footer_header">SUPPORT</p>
-        <p>Free & premium UI tools to help you build better websites</p>
+            <a class="footer_info" href="../Blog Page/index.html">Blog Page</a><br>
+            <a class="footer_info" href="../Blog Page/index.html">Contact Page</a><br>
+            <a class="footer_info" href="../Blog Page/index.html">Suggation Page</a><br>
         </div>
 
         <div class="col">
@@ -111,10 +124,14 @@
 
         <div class="col">
             <p class="footer_header">WEBSITE LINK</p>
-            <a class="footer_info" href="https://redoytime.net/">https://redoytime.net/</a><br>
-            <a class="footer_info" href="https://developerredoy.github.io/Front_end/">https://github.io/Front_end/</a><br>
-            <a class="footer_info" href="https://developerredoy.github.io/tech-web-fontend/">https://github.io/tech-web-fontend/</a><br>
-            <a class="footer_info" href="http://redoysoftwareengineer.epizy.com/">http://redoysoftwareengineer.com/</a><br>
+            <a class="footer_info" href="https://redoytime.net/">Educational Website</a><br>
+            <a class="footer_info" href="https://developerredoy.github.io/Front_end/">E-commerce Website</a><br>
+            <a class="footer_info" href="https://developerredoy.github.io/tech-web-fontend/">Blog Website</a><br>
+            <a class="footer_info" href="http://redoysoftwareengineer.epizy.com/">UI/UX WEBSITE</a><br>
+            <a class="footer_info" href="http://redoysoftwareengineer.epizy.com/">Wordpress Website</a><br>
+            <a class="footer_info" href="http://redoysoftwareengineer.epizy.com/">Chating Website</a><br>
+            <a class="footer_info" href="http://redoysoftwareengineer.epizy.com/">API Website</a><br>
+            <a class="footer_info" href="http://redoysoftwareengineer.epizy.com/">Music Website</a><br>
         </div>
         
         <div class="col">
@@ -125,10 +142,11 @@
 
         <div class="col">
             <p class="footer_header">CONTACT US</p>
-            <span class="footer_info"><span style="font-weight: 700;">Address :</span> <br>Ajilzhara, Barishal, Bangladesh <br></span>
-            <span class="footer_info"><span style="font-weight: 700;">Email</span> : <br>webmailRedoy@redoytime.net</span>
 
-            <span class="footer_info" style="font-weight: 700;">Social Media Link &nbsp;&nbsp;<i class="fas fa-link"></i></span><br><br>
+            <span class="footer_info_exta"><span style="font-weight: 700;">Address :</span> <br>Ajilzhara, Barishal, Bangladesh <br></span>
+            <span class="footer_info_exta"><span style="font-weight: 700;">Email</span> : <br>webmailRedoy@redoytime.net</span>
+            <span class="footer_info_exta" style="font-weight: 700;">Social Media Link &nbsp;&nbsp;<i class="fas fa-link"></i></span><br><br>
+
             <ul class="icon_footer">
                 <li><a class="header_123_icon ami_shado_foot" href="#"><i class="fab fa-facebook-f"></i></a></li>
                 <li><a class="header_123_icon ami_shado_foot" href="#"><i class="fab fa-twitter"></i></a></li>
