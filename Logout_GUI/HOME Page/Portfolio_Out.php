@@ -83,7 +83,7 @@
 </head>
 <body>
 
-<div class="port_back">
+<div id="Portfolio_go" class="port_back">
 <div class="container">
 <!--  -->
 <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -101,38 +101,38 @@
         </div>
 </div>
 <!--  -->
-    <div class="row row-cols-1 row-cols-md-3 g-4 port_div_1">
+    <div id="portfolio_go1" class="row row-cols-1 row-cols-md-3 g-4 port_div_1">
         <div class="col port">
             <p class="port_card_test_style" >Web Design (Html, CSS, Bootstrap)</p>
-            <a class="card_pro" href="#"><img style="border-radius: 10px;" class="img_ card_pro" src="img/Portfolio_img_1.jpg" alt=""></a>
+            <a class="card_pro" href="#portfolio_go1"><img style="border-radius: 10px;" class="img_ card_pro" src="img/Portfolio_img_1.jpg" alt=""></a>
         </div>
 
         <div class="col port">
         <p class="port_card_test_style">Web Development (PHP, MySQL)</p>
-        <a href="#"><img class="img_ card_pro" src="img/port web development.jpg" alt=""></a>
+        <a href="#portfolio_go1"><img class="img_ card_pro" src="img/port web development.jpg" alt=""></a>
         </div>
 
         <div class="col port">
         <p class="port_card_test_style">SEO (Google Search Engine)</p>
-           <a href="#"><img class="img_ card_pro img-thumbnail" src="img/SEO.jpg" alt=""></a>
+           <a href="#portfolio_go1"><img class="img_ card_pro img-thumbnail" src="img/SEO.jpg" alt=""></a>
         </div>
     </div>
     <!--  -->
-    <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div id="portfolio_go2" class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col port">
         <p class="port_card_test_style">Android Apps Design (XML, JAVA)</p>
-            <a href="#"><img class="img_ card_pro" src="img/apps_Design.jpg" alt=""></a>
+            <a href="#portfolio_go2"><img class="img_ card_pro" src="img/apps_Design.jpg" alt=""></a>
         </div>
 
         <div class="col port">
         <p class="port_card_test_style">Android Apps Development (JAVA, MySQL, Firebase)</p>
-        <a href="#"><img class="img_ card_pro" src="img/mobile apps development.jpg" alt=""></a>
+        <a href="#portfolio_go2"><img class="img_ card_pro" src="img/mobile apps development.jpg" alt=""></a>
         </div>
 
         <div class="col port">
         <p class="port_card_test_style">software engineering (Java, MySQL)</p>
-           <a href="#"><img class="img_ card_pro card_pro5" src="img/software_engineering.jpg" alt=""></a>
-           <a href="#"><img style="margin-top: 3vh;" class="img_ card_pro" src="img/software_engineering2.png" alt=""></a>
+           <a href="#portfolio_go2"><img class="img_ card_pro card_pro5" src="img/software_engineering.jpg" alt=""></a>
+           <a href="#portfolio_go2"><img style="margin-top: 3vh;" class="img_ card_pro" src="img/software_engineering2.png" alt=""></a>
         </div>
     </div>
 

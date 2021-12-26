@@ -19,7 +19,7 @@
     <nav class="navbar navbar-light bg-dark">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="img/ruby.png" alt="" width="30" height="24">
+                <img src="img/ruby.png" alt="" width="30" height="30">
                 &nbsp; Redoy
             </a>
         </div>
@@ -44,12 +44,15 @@
         <!-- Dropdown -->
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown link
+            Page link
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a class="dropdown-item" href="#">Home Page</a></li>
+            <li><a class="dropdown-item" href="#Skills_go">Skills Page</a></li>
+            <li><a class="dropdown-item" href="#about_go">About Page</a></li>
+            <li><a class="dropdown-item" href="#author_go">Authoore Page</a></li>
+            <li><a class="dropdown-item" href="#Portfolio_go">Portfolio Page</a></li>
+            <li><a class="dropdown-item" href="#footer_go">Footer Page</a></li>
           </ul>
         </li>
         <!-- Dropdown -->

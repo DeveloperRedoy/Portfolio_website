@@ -116,10 +116,10 @@
 
         <div class="col">
             <p class="footer_header">ABOUT US</p>
-            <a href="#">Themes</a>
-            <a href="#">Themes</a>
-            <a href="#">Themes</a>
-            <a href="#">Themes</a>
+            <a href="#footer_go">Themes</a>
+            <a href="#footer_go">Themes</a>
+            <a href="#footer_go">Themes</a>
+            <a href="#footer_go">Themes</a>
         </div>
 
         <div class="col">
@@ -136,8 +136,8 @@
         
         <div class="col">
         <p class="footer_header">SUPPORT</p>
-        <a href="#">Themes</a>
-        <a href="#">Themes</a>
+        <a href="#footer_go">Themes</a>
+        <a href="#footer_go">Themes</a>
         </div>
 
         <div class="col">
@@ -148,9 +148,9 @@
             <span class="footer_info_exta" style="font-weight: 700;">Social Media Link &nbsp;&nbsp;<i class="fas fa-link"></i></span><br><br>
 
             <ul class="icon_footer">
-                <li><a class="header_123_icon ami_shado_foot" href="#"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a class="header_123_icon ami_shado_foot" href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a class="header_123_icon ami_shado_foot" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a class="header_123_icon ami_shado_foot" href="https://www.facebook.com/redoy.sarder.714/" target ="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a class="header_123_icon ami_shado_foot" href="https://twitter.com/FreelancerRedoy" target ="_blank" ><i class="fab fa-twitter"></i></a></li>
+                <li><a class="header_123_icon ami_shado_foot" href="https://www.linkedin.com/in/md-redoy-70928b206/" target ="_blank" ><i class="fab fa-linkedin-in"></i></a></li>
             </ul>
             
         </div>
