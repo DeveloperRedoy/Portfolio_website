@@ -28,6 +28,8 @@
             font-size: 16px;
             font-family: Trebuchet MS", sans-serif";
             color: silver;
+            text-decoration: none;
+            color: #009bdf;
         }
         .footer_info_exta
         {
@@ -39,6 +41,7 @@
         .footer_info:hover
         {
             border-bottom: 1px solid #00b3ff;
+            color: #009bdf;
         }
         /*  */
         .icon_footer
@@ -109,9 +112,9 @@
 
         <div class="col">
         <p class="footer_header">SUPPORT</p>
-            <a class="footer_info" href="../Blog Page/index.html">Blog Page</a><br>
-            <a class="footer_info" href="../Blog Page/index.html">Contact Page</a><br>
-            <a class="footer_info" href="../Blog Page/index.html">Suggation Page</a><br>
+            <a class="footer_info" href="#">Blog Page</a><br>
+            <a class="footer_info" href="#">Contact Page</a><br>
+            <a class="footer_info" href="#">Suggation Page</a><br>
         </div>
 
         <div class="col">
@@ -124,14 +127,14 @@
 
         <div class="col">
             <p class="footer_header">WEBSITE LINK</p>
-            <a class="footer_info" href="https://redoytime.net/">Educational Website</a><br>
-            <a class="footer_info" href="https://developerredoy.github.io/Front_end/">E-commerce Website</a><br>
-            <a class="footer_info" href="https://developerredoy.github.io/tech-web-fontend/">Blog Website</a><br>
-            <a class="footer_info" href="http://redoysoftwareengineer.epizy.com/">UI/UX WEBSITE</a><br>
-            <a class="footer_info" href="http://redoysoftwareengineer.epizy.com/">Wordpress Website</a><br>
-            <a class="footer_info" href="http://redoysoftwareengineer.epizy.com/">Chating Website</a><br>
-            <a class="footer_info" href="http://redoysoftwareengineer.epizy.com/">API Website</a><br>
-            <a class="footer_info" href="http://redoysoftwareengineer.epizy.com/">Music Website</a><br>
+            <a class="footer_info" href="#">Educational Website</a><br>
+            <a class="footer_info" href="#">E-commerce Website</a><br>
+            <a class="footer_info" href="#">Blog Website</a><br>
+            <a class="footer_info" href="#">UI/UX WEBSITE</a><br>
+            <a class="footer_info" href="#">Wordpress Website</a><br>
+            <a class="footer_info" href="#">Chating Website</a><br>
+            <a class="footer_info" href="#">API Website</a><br>
+            <a class="footer_info" href="#">Music Website</a><br>
         </div>
         
         <div class="col">

@@ -7,7 +7,7 @@
   <title>Document</title>
   <!--  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/jquery.floating-social-share.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/social_icon.css" />
     <link rel="stylesheet" href="Responsive/Slider/style.css">
     <link rel="stylesheet" href="Responsive/Home_Out_res.css">
   <!--  -->
@@ -85,9 +85,16 @@
   <?php require 'footer_GUI.php' ?>
   <!-- ====================== -->
 
+  <div class="ami">
+        <a href="#"><i class="fab fa-facebook-square"></i></a> <br>
+        <a href="#"><i class="fab fa-twitter-square"></i></a><br>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a><br>
+        <a href="#"><i class="fab fa-whatsapp"></i></a><br>
+        <a href="#"><i class="fab fa-whatsapp"></i></a><br>
+        <a href="#"><i class="fab fa-pinterest-square"></i></a><br>
+        <div class="vl"></div>   
+    </div>
 
-<script type="text/javascript" src="js/jquery-latest.min.js"></script>
-<script type="text/javascript" src="js/jquery.floating-social-share.min.js"></script>
 <script src="js/logic.js"></script>
 
 </body>
